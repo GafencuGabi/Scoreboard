@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: #1B244A;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    margin: 100px auto;
+}
+
+.home, .guest{
+    margin: 0 30px;
+}
+
+h2{
+    margin: 10px;
+    text-shadow: 4px -2px 10px #80808096;
+}
+
+#home-points, #guest-points{
+    background: #222;
+    font-size: 56px;
+    padding: 20px;
+    margin: 20px 0;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+}
+
+.buttons{
+    margin: 10px;
+}
+
+.buttons button{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #fff;
+    background: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #fff;
+}
+
+.buttons button:hover{
+    background: #222222b2;
+}
+
+.reset-button{
+    text-align: center;
+}
+
+#new-game{
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+    font-size: 24px;
+    border: 1px solid #222;
+}
+
+#new-game:hover{
+    background: #fff;
+    color: #222;
+    border: 1px solid #222;
+    
+}
+
+
